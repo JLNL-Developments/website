@@ -1,24 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+body {
+    background-color: darkslategray;
+    text-align: center;
+}
+
 ul {
+    margin: 1ex;
+    padding: 1ex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
+    margin-bottom: 20px;
 }
 
 li {
     float: left;
-    font-family: Arial;
+    font-family: Bebas Neue;
+    font-size: x-large;
 }
 
 li a {
     display: block;
-    color: white;
+    color: rgb(114, 150, 149);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 1s;
 }
 
 li a:hover {
     background-color: #111;
+    color: rgb(0, 255, 213);
+    transition: 1s;
 }
+
+.navbar {
+    align-content: center;
+}
+
+.content-container {
+    width: 95%;
+    margin: 1ex;
+    padding: 1ex;
+    padding-left: 2ex;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
+    background-color: lightgray;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.content-container:hover {
+    box-shadow: 10px 5px 5px rgba(0, 255, 213, 0);
+}
+
+.content h1 {
+    float: left;
+    color: rgb(114, 150, 149);
+    font-family: Bebas Neue;
+    font-size: 35px;
+}
+
+.content h3 {
+    float: left;
+    color: rgb(114, 150, 149);
+    font-family: Bebas Neue;
+    font-size: xx-small;
+}
+
+.content p {
+    float: left;
+}
+
+.content img {
+    float: right;
+    clear: right;
+    width: 50%;
+}
+
+.content-text {}
