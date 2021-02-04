@@ -66,21 +66,33 @@ li a:hover {
     font-size: 35px;
 }
 
-.content h3 {
-    float: left;
+.content-text {
+    padding-top: 100px;
     color: rgb(114, 150, 149);
     font-family: Bebas Neue;
-    font-size: xx-small;
+    font-size: small;
+    padding: 10px;
+    width: 45%;
 }
 
-.content p {
+.align-left {
     float: left;
+    clear: left;
 }
 
-.content img {
+.align-right {
     float: right;
     clear: right;
-    width: 50%;
 }
 
-.content-text {}
+.content-right img {
+    width: 50%;
+    float: right;
+    clear: right;
+}
+
+.content-left img {
+    width: 50%;
+    float: left;
+    clear: left;
+}
