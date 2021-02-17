@@ -5,7 +5,7 @@ body {
     text-align: center;
 }
 
-ul {
+.navbar ul {
     margin: 1ex;
     padding: 1ex;
     list-style-type: none;
@@ -18,13 +18,13 @@ ul {
     margin-bottom: 20px;
 }
 
-li {
+.navbar li {
     float: left;
     font-family: Bebas Neue;
-    font-size: x-large;
+    font-size: 35px;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: rgb(114, 150, 149);
     text-align: center;
@@ -33,9 +33,9 @@ li a {
     transition: 1s;
 }
 
-li a:hover {
+.navbar li a:hover {
     background-color: #111;
-    color: rgb(0, 255, 213);
+    color: rgb(51, 199, 174);
     transition: 1s;
 }
 
@@ -53,24 +53,25 @@ li a:hover {
     background-color: lightgray;
     transition: 1s;
     overflow: hidden;
+    margin-bottom: 25px;
+    padding: 25px;
 }
 
 .content-container:hover {
     box-shadow: 10px 5px 5px rgba(0, 255, 213, 0);
 }
 
-.content h1 {
-    float: left;
-    color: rgb(114, 150, 149);
+.content-text h1 {
+    color: rgb(56, 63, 63);
     font-family: Bebas Neue;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 .content-text {
     padding-top: 100px;
-    color: rgb(114, 150, 149);
+    color: rgb(96, 158, 156);
     font-family: Bebas Neue;
-    font-size: small;
+    font-size: 25px;
     padding: 10px;
     width: 45%;
 }
@@ -89,10 +90,60 @@ li a:hover {
     width: 50%;
     float: right;
     clear: right;
+    border-radius: 10px;
+    border: 5px solid rgba(114, 150, 149);
 }
 
 .content-left img {
     width: 50%;
     float: left;
     clear: left;
+    border-radius: 10px;
+    border: 5px solid rgba(114, 150, 149);
+}
+
+.content-text a {
+    font-size: 35px;
+    font-style: normal;
+    color: rgba(114, 150, 149);
+    background-color: rgb(51, 199, 174);
+    border: 5px solid rgba(114, 150, 149);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.footer ul {
+    font-family: Bebas Neue;
+    font-size: 20px;
+}
+
+.footer li {
+    font-family: Bebas Neue;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #333;
+    text-align: left;
+    margin: 0px;
+    font-size: 20px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.footer-content-container {
+    width: 30%;
+    flex-direction: row;
+}
+
+.footer a {
+    color: rgba(114, 150, 149);
+}
+
+.footer h1 {
+    font-family: Bebas Neue;
+    font-size: 35px;
+    color: rgb(51, 199, 174);
 }
