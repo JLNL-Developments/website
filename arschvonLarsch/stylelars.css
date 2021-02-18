@@ -1,0 +1,62 @@
+body {
+    background-image: url(lol.jpg);
+    background-size: cover;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.329);
+    padding: 150px 320px;
+    display: inline-block;
+    font-size: 100px;
+    position: relative;
+    left: 35%;
+}
+.navbar {
+    align-content: center;
+}
+.navbar ul {
+    margin: 1ex;
+    padding: 1ex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 204, 255);
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(255, 18, 156);
+    margin-bottom: 20px;
+}
+.navbar li {
+    float: left;
+    font-family: Bebas Neue;
+    font-size: 35px;
+}
+.navbar li a {
+    display: block;
+    padding: 12px 20px;
+    transition: 5s;
+    margin: 0px;
+    text-align: center;
+}
+.navbar li a:hover {
+    background-color: blueviolet;
+    color:chartreuse;
+    transition: 0s;
+}
+.button {
+    display: inline-block;
+    padding: 32px 40px;
+    background-color: crimson;
+    color: black;
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: bold;
+    position:absolute;
+    left:40%;
+    top: 500px;
+    box-shadow: 40px 40px 32px rgb(255, 255, 255);
+}
+.button:hover {
+    background-color: rgb(0, 158, 71);
+    color: white;
+    box-shadow: 40px 40px 32px violet;
+}
