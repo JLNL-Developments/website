@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.navigation {
+    font-family: Roboto;
+}
+
+.navigation ul {
+    top: 100px;
+}
+
+.recipe {
+    font-family: Roboto;
+}
+
+.zutaten caption {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.zutaten tr:nth-child(even) {
+    background-color: rgb(192, 192, 192);
+    text-align: left;
+    width: 150px;
+}
+
+.zutaten tr:nth-child(odd) {
+    background-color: white;
+    text-align: left;
+    width: 150px;
+}
+
+.zutaten table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
