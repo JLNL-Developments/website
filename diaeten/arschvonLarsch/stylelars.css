@@ -1,20 +1,27 @@
-body {
-    background-image: url(lol.jpg);
-    background-size: cover;
-}
+
 .container {
-    background-color: rgba(255, 255, 255, 0.329);
-    padding: 150px 320px;
+    background-color: rgb(255, 255, 255);
+    padding: 3000px 30%;
     display: inline-block;
-    font-size: 100px;
-    position: relative;
-    left: 35%;
+    font-size: 45px;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: absolute;
+    top: 20px;
+}
+.container p {
+    font-size: 69px;
+    font-weight: bold;
+    position:absolute;
+    left:0%;
+    top:0%;
 }
 .navbar {
     align-content: center;
     position:fixed;
     top:0%;
     width: 100%;
+    z-index: 1;
 }
 .navbar ul {
     margin: 1ex;
@@ -24,18 +31,17 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
-    box-shadow: 10px 5px 5px rgb(255, 18, 156);
     margin-bottom: 20px;
 }
 .navbar li {
-    float: left;
+    float:left;
     font-size: 35px;
 }
 .navbar li a {
     display: block;
     padding: 12px 20px;
     transition: 5s;
-    margin: 0px;
+    margin-left: 0px;
     color:white;
     text-align: center;
 }
@@ -63,4 +69,9 @@ body {
 }
 .trans {
     opacity: 0.3;
+}
+.lel {
+    position: absolute;
+    left: 0%;
+    top: 200px;
 }
