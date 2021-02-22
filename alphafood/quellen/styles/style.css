@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+body {
+    background-color: darkslategray;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 100;
+    color: white;
+}
+
+h1 {
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    font-size: 50px;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
+.spacer {
+    padding-top: 50px;
+}
