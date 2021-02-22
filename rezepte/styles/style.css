@@ -3,6 +3,10 @@ body {
     font-family: Roboto;
 }
 
+.gradient {
+    background-image: linear-gradient(180deg, pink, grey);
+}
+
 .navigation ul {
     top: 100px;
 }
@@ -14,9 +18,20 @@ body {
 a {
     color: black;
     text-decoration: none;
-    background-color: lightgray;
+    background-color: rgba(151, 151, 151, 0.5);
     padding: 5px;
     border-radius: 5px;
+    transition: 1s;
+}
+
+a:hover {
+    background-color: violet;
+    transition: 1s;
+}
+
+.startseite {
+    text-align: center;
+    list-style: none;
 }
 
 .recipe {
@@ -31,13 +46,13 @@ a {
 }
 
 .zutaten tr:nth-child(even) {
-    background-color: rgb(192, 192, 192);
+    background-color: rgba(131, 110, 131, 0.5);
     text-align: left;
     width: 150px;
 }
 
 .zutaten tr:nth-child(odd) {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.);
     text-align: left;
     width: 150px;
 }
