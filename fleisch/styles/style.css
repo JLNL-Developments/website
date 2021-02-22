@@ -5,6 +5,10 @@ body {
 
 .navbar {}
 
+.navbar li {
+    display: inline;
+}
+
 .bildcollage {}
 
 .zitate-container {}
