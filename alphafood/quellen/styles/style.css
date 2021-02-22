@@ -9,18 +9,25 @@ body {
 
 h1 {
     font-weight: 100;
+    font-size: 50px;
     text-decoration: underline;
 }
 
 a {
     text-decoration: none;
     color: white;
-    background-color: teal;
     font-size: 50px;
-    padding-top: 15px;
+    margin-top: 15px;
     border-radius: 5px;
 }
 
-.spacer {
-    padding-top: 50px;
+.link-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    border: solid 1px white;
+    margin: 35px;
+    flex: 1 0 30%;
 }
