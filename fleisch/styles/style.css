@@ -19,7 +19,7 @@ body {
     width: 70%;
     padding: 15px;
     margin: 15px;
-    outline: 1px solid #ccc;
+    outline: 3px solid #ccc;
     text-align: justify;
 }
 
@@ -29,7 +29,7 @@ body {
     width: 70%;
     padding: 15px;
     margin: 15px;
-    outline: 1px solid #ccc;
+    outline: 3px solid #ccc;
 }
 
 .pie-chart {
