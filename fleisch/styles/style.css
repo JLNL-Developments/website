@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: Roboto;
+}
+
 .navbar {}
 
 .bildcollage {}
@@ -6,8 +11,69 @@
 
 .zitat {}
 
-.rezept-container {}
-
-.rezept {}
+.infos-container {
+    width: 70%;
+    padding: 15px;
+    margin: 15px;
+    outline: 1px solid #ccc;
+    text-align: justify;
+}
 
 .zusammenfassung-container {}
+
+.piechart-container {
+    width: 70%;
+    padding: 15px;
+    margin: 15px;
+    outline: 1px solid #ccc;
+}
+
+.pie-chart {
+    background: radial-gradient( circle closest-side, transparent 75%, white 0), conic-gradient( #71baf9 0, #71baf9 75.8%, #ffb56b 0, #ffb56b 96%, #ff8082 0, #ff8082 97%, #76b7b2 0, #76b7b2 100%);
+    position: relative;
+    width: 50%;
+    min-height: 500px;
+    margin: 0;
+    text-align: justify;
+}
+
+.pie-chart h2 {
+    position: absolute;
+    margin: 1rem;
+}
+
+.pie-chart cite {
+    position: absolute;
+    bottom: 0;
+    font-size: 80%;
+    padding: 1rem;
+    color: gray;
+}
+
+.pie-chart figcaption {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-size: smaller;
+    text-align: right;
+}
+
+.pie-chart span:after {
+    display: inline-block;
+    content: "";
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.4em;
+    height: 0.8em;
+    border-radius: 0.2em;
+}
+
+.align-left {
+    float: left;
+    clear: left;
+}
+
+.align-right {
+    float: right;
+    clear: right;
+}
