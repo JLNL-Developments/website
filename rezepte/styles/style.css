@@ -3,8 +3,13 @@ body {
     font-family: Roboto;
 }
 
+img {
+    border: 10px solid rgb(190, 116, 190);
+    max-width: 1000px;
+}
+
 .gradient {
-    background-image: linear-gradient(180deg, pink, grey);
+    background-image: linear-gradient(180deg, violet, grey);
 }
 
 .navigation ul {
@@ -18,7 +23,7 @@ body {
 a {
     color: black;
     text-decoration: none;
-    background-color: rgba(151, 151, 151, 0.5);
+    background-color: rgba(167, 116, 190, 0.5);
     padding: 5px;
     border-radius: 5px;
     transition: 1s;
@@ -38,15 +43,8 @@ a:hover {
     font-family: Roboto;
 }
 
-.zutaten caption {
-    text-align: left;
-    font-size: 30px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
 .zutaten tr:nth-child(even) {
-    background-color: rgba(131, 110, 131, 0.5);
+    background-color: rgba(167, 116, 190, 0.5);
     text-align: left;
     width: 150px;
 }
@@ -55,6 +53,15 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.);
     text-align: left;
     width: 150px;
+}
+
+.split-screen {
+    display: flex;
+    flex-direction: row;
+}
+
+.split-screen-child {
+    width: auto;
 }
 
 .zutaten table,
