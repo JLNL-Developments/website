@@ -116,8 +116,8 @@ ul.s {
     list-style-type:square;
 }
 
-.ul.a {
-    list-style-type:lower-roman;
+ul.a {
+    list-style-type:square;
 }
 
 .b {
