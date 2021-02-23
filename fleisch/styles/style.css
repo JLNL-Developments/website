@@ -5,15 +5,23 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 img {
     z-index: 1;
+}
+
+.bg {
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(49, 49, 49);
+    padding-top: 10px;
 }
 
 .navbar {
@@ -45,69 +53,73 @@ img {
 
 .navbar a:hover {
     background-color: rgb(75, 100, 100);
-    color: rgb(255, 255, 255);
     transition: 0s;
 }
 
 .bildcollage {
+    overflow: hidden;
+}
+
+.bildcollage-imgcontainer {
     display: flex;
+    height: auto;
 }
 
 .bildcollage img {
-    width: 460px;
-    height: 400px;
-}
-
-.bildcollage img:hover {
-    size: 120%;
+    max-width: 24.25%
 }
 
 .spacer {
-    width: 15px;
-    height: 400px;
+    width: 1%;
     z-index: 2;
     background-color: rgb(108, 144, 144);
     flex: none;
 }
 
 .thesen-container {
-    width: 70%;
+    margin: auto;
+    width: 85%;
     padding: 15px;
-    margin: 15px;
+    margin-bottom: 15px;
     outline: 3px solid rgb(108, 144, 144);
     text-align: justify;
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(66, 66, 66);
 }
 
 .thesen {}
 
 .infos-container {
-    width: 70%;
+    width: 85%;
     padding: 15px;
-    margin: 15px;
+    margin: auto;
+    margin-bottom: 15px;
     outline: 3px solid rgb(108, 144, 144);
     text-align: justify;
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(66, 66, 66);
 }
 
-.zusammenfassung-container {}
+.zusammenfassung-container {
+    margin: auto;
+}
 
 .piechart-container {
-    width: 70%;
+    margin: auto;
+    width: 85%;
     padding: 15px;
-    margin: 15px;
+    margin-bottom: 15px;
     outline: 3px solid rgb(108, 144, 144);
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(66, 66, 66);
 }
 
 .pie-chart {
-    background: radial-gradient( circle closest-side, transparent 75%, white 0), conic-gradient( #71baf9 0, #71baf9 75.8%, #ffb56b 0, #ffb56b 96%, #ff8082 0, #ff8082 97%, #76b7b2 0, #76b7b2 100%);
+    background: radial-gradient( circle closest-side, transparent 75%, rgb(100, 100, 100) 0), conic-gradient( #71baf9 0, #71baf9 75.8%, #ffb56b 0, #ffb56b 96%, #ff8082 0, #ff8082 97%, #76b7b2 0, #76b7b2 100%);
     position: relative;
     width: 50%;
     min-height: 500px;
     margin: 0;
     text-align: justify;
     outline: 3px solid rgb(108, 144, 144);
+    color: white;
 }
 
 .pie-chart h2 {
@@ -129,6 +141,7 @@ img {
     right: 1em;
     font-size: smaller;
     text-align: right;
+    color: white;
 }
 
 .pie-chart span:after {

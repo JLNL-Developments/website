@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap%27');
 body {
     text-align: left;
-    font-family: Poppins
+    font-family: Poppins;
+    background-image: url("../images/markt.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .container {
     text-align: center;
     background-color: rgb(255, 255, 255);
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-.container p {
-    text-align: justify;
-    font-size: 24px;
-    left: 0;
-    top: 0;
+    padding: 25px;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 .navbar {
@@ -71,15 +69,49 @@ body {
 }
 
 .container h1 {
-    font-size: 100px;
+    font-size: 90px;
     font-weight: bolder;
 }
 
 .container h2 {
-    font-size: 60px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container h3 {
+    font-size: 30px;
     font-weight: bold;
 }
 
 .container a {
     text-decoration: none;
+}
+
+.container ul {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container ol {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container img {
+    max-width: 100%;
+}
+.int {
+    background-color: lightgrey;
+    font-size: 24px;
+    max-width: 50px;
+    border:2px solid black;
+}
+
+ul.s {
+    list-style-type:square;
 }
