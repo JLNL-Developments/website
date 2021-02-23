@@ -78,7 +78,7 @@ img {
 .showcase {
     min-height: 400px;
     min-width: 700px;
-    background: url(https://www.br.de/br-fernsehen/sendungen/wir-in-bayern/rezepte/rezepte-kategorie-vegetarisch-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.png?version=6a5d2);
+    background: url('../../images/vegetarisch.jpg');
     background-size: cover;
     background-position: center;
     padding: 3rem;
