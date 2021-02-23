@@ -132,7 +132,7 @@ img {
 }
 
 .pie-chart {
-    background: radial-gradient( circle closest-side, transparent 75%, rgb(100, 100, 100) 0), conic-gradient( #71baf9 0, #71baf9 75.8%, #ffb56b 0, #ffb56b 96%, #ff8082 0, #ff8082 97%, #76b7b2 0, #76b7b2 100%);
+    background: radial-gradient( circle closest-side, transparent 75%, rgb(100, 100, 100) 0), conic-gradient( #71baf9 0%, #71baf9 75.8%, #ffb56b 0%, #ffb56b 96%, #ff8082 0%, #ff8082 97%, #76b7b2 0%, #76b7b2 100%);
     position: relative;
     width: 50%;
     min-height: 500px;
