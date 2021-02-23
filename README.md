@@ -1,5 +1,2 @@
-# website
-Hallo
-Keck
-lol
-HURENSCHON
+# Website
+Eine Website für ein Schulprojekt
