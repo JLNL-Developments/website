@@ -56,6 +56,12 @@ img {
     transition: 0s;
 }
 
+.home {
+    position: absolute;
+    top: 29px;
+    left: 8px;
+}
+
 .bildcollage {
     overflow: hidden;
 }
