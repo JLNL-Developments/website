@@ -16,6 +16,13 @@ img {
     z-index: 1;
 }
 
+.bg {
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: white;
+    padding-top: 10px;
+}
+
 .navbar {
     background-color: black;
     justify-content: center;
@@ -50,30 +57,30 @@ img {
 }
 
 .bildcollage {
+    overflow: hidden;
+}
+
+.bildcollage-imgcontainer {
     display: flex;
+    height: auto;
 }
 
 .bildcollage img {
-    width: 460px;
-    height: 400px;
-}
-
-.bildcollage img:hover {
-    size: 120%;
+    max-width: 24.25%
 }
 
 .spacer {
-    width: 15px;
-    height: 400px;
+    width: 1%;
     z-index: 2;
     background-color: rgb(108, 144, 144);
     flex: none;
 }
 
 .thesen-container {
+    margin: auto;
     width: 70%;
     padding: 15px;
-    margin: 15px;
+    margin-bottom: 15px;
     outline: 3px solid rgb(108, 144, 144);
     text-align: justify;
     background-color: rgb(170, 170, 170);
@@ -84,18 +91,22 @@ img {
 .infos-container {
     width: 70%;
     padding: 15px;
-    margin: 15px;
+    margin: auto;
+    margin-bottom: 15px;
     outline: 3px solid rgb(108, 144, 144);
     text-align: justify;
     background-color: rgb(170, 170, 170);
 }
 
-.zusammenfassung-container {}
+.zusammenfassung-container {
+    margin: auto;
+}
 
 .piechart-container {
+    margin: auto;
     width: 70%;
     padding: 15px;
-    margin: 15px;
+    margin-bottom: 15px;
     outline: 3px solid rgb(108, 144, 144);
     background-color: rgb(170, 170, 170);
 }
