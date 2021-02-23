@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap%27');
 body {
     text-align: left;
+    font-family: Poppins
 }
 
 .container {
@@ -177,6 +179,19 @@ body {
 
 .s3 {
     top:1480px;
+}
+
+.ue1 {                  /* ue ist für Überschriften auf der Seite intervallfasten.html */
+    top:-50px;
+    left:22%;
+}
+
+.ue2 {
+    top:120px;
+}
+
+.k1 {
+
 }
 
 .hns {
