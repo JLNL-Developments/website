@@ -2,7 +2,7 @@
 body {
     text-align: left;
     font-family: Poppins;
-    background-image: url("../images/markt.jpg");
+    background-image: url("../images/back.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -10,7 +10,7 @@ body {
 
 .container {
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(255, 255, 255, 0.7), white, rgb(255, 255, 255, 0.7));
     padding: 25px;
     margin-left: 350px;
     margin-right: 350px;
@@ -52,8 +52,8 @@ body {
 }
 
 .navbar a:hover {
-    background-color: blueviolet;
-    color: chartreuse;
+    background-color: rgb(94, 12, 133);
+    color: rgb(50, 220, 255);
     transition: 0s;
 }
 
@@ -61,11 +61,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-}
-
-.button a:hover {
-    background-color: blueviolet;
-    color: chartreuse;
 }
 
 .container h1 {
@@ -120,4 +115,7 @@ ul.a {
     list-style-type:square;
 }
 
+img {
+    border:2px solid black;
+}
 

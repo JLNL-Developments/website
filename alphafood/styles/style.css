@@ -117,11 +117,6 @@ body {
     font-size: 20px;
 }
 
-.footer li {
-    font-family: Bebas Neue;
-    font-size: 20px;
-}
-
 .footer {
     background-color: #333;
     text-align: left;
@@ -136,10 +131,13 @@ body {
 .footer-content-container {
     width: 30%;
     flex-direction: row;
+    text-align: center;
 }
 
 .footer a {
     color: rgba(114, 150, 149);
+    font-family: Bebas Neue;
+    font-size: 20px;
 }
 
 .footer h1 {
