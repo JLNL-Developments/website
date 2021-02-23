@@ -118,6 +118,11 @@ body {
     left:0;
 }
 
+.container ul {
+    font-size: 24px;
+    position: absolute;
+    left:0;
+}
 .u1 {                   /* u ist für Überschriften auf der Seite index.html */
     top:-50px;
     left:38%;
@@ -153,8 +158,25 @@ body {
     top:120px;
 }
 
+.ü3{
+    top:894px;
+}
+
+.ü4 {
+    top:1340px;
+}
+
 .s1{                    /* s ist für Text auf der Seite kohlenhydratram.html */
     top:250px
+}
+
+.s2{
+    top:1001px;
+    background-color: rgb(240, 240, 240);
+}
+
+.s3 {
+    top:1480px;
 }
 
 .hns {
@@ -164,4 +186,15 @@ body {
     border: 1px solid black;
     width:512px;
     height: 261px;
+}
+
+.lce {
+    position: absolute;
+    top:370px;
+    left:0;
+    border: 1px solid black;
+}
+
+strong {
+    font-size: 28px;
 }
