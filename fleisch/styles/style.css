@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
     font-family: Roboto;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 a {
@@ -70,8 +74,9 @@ img {
     width: 70%;
     padding: 15px;
     margin: 15px;
-    outline: 3px solid #ccc;
+    outline: 3px solid rgb(108, 144, 144);
     text-align: justify;
+    background-color: rgb(170, 170, 170);
 }
 
 .thesen {}
@@ -80,8 +85,9 @@ img {
     width: 70%;
     padding: 15px;
     margin: 15px;
-    outline: 3px solid #ccc;
+    outline: 3px solid rgb(108, 144, 144);
     text-align: justify;
+    background-color: rgb(170, 170, 170);
 }
 
 .zusammenfassung-container {}
@@ -90,7 +96,8 @@ img {
     width: 70%;
     padding: 15px;
     margin: 15px;
-    outline: 3px solid #ccc;
+    outline: 3px solid rgb(108, 144, 144);
+    background-color: rgb(170, 170, 170);
 }
 
 .pie-chart {
@@ -100,6 +107,7 @@ img {
     min-height: 500px;
     margin: 0;
     text-align: justify;
+    outline: 3px solid rgb(108, 144, 144);
 }
 
 .pie-chart h2 {
