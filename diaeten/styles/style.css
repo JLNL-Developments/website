@@ -7,15 +7,13 @@ body {
 .container {
     text-align: center;
     background-color: rgb(255, 255, 255);
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .container p {
     text-align: justify;
     font-size: 24px;
-    left: 0;
-    top: 0;
 }
 
 .navbar {
@@ -82,4 +80,15 @@ body {
 
 .container a {
     text-decoration: none;
+}
+
+img.links {
+    position: absolute;
+    left:250px;
+    border:1px solid black;
+}
+
+.container ul {
+    text-align: justify;
+    font-size: 24px;
 }
