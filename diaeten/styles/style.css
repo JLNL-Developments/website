@@ -11,14 +11,9 @@ body {
 .container {
     text-align: center;
     background-color: rgb(255, 255, 255);
-<<<<<<< Updated upstream
     padding: 25px;
-    margin-left: 250px;
-    margin-right: 250px;
-=======
-    margin-left: 450px;
-    margin-right: 450px;
->>>>>>> Stashed changes
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 .navbar {
