@@ -120,6 +120,11 @@ img {
 
 .zusammenfassung-container {
     margin: auto;
+    width: 85%;
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: 3px solid rgb(108, 144, 144);
+    background-color: rgb(66, 66, 66);
 }
 
 .piechart-container {
