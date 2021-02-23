@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 body {
-    font-family: Roboto;
+    font-family: Fjalla One;
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -46,6 +46,7 @@ img {
     padding: 21px 25px;
     color: white;
     font-weight: bold;
+    font-size: xx-large;
     text-align: center;
     transition: 1s;
     margin: 0;
@@ -56,8 +57,17 @@ img {
     transition: 0s;
 }
 
+.home {
+    position: absolute;
+    top: 29px;
+    left: 8px;
+}
+
 .bildcollage {
     overflow: hidden;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .bildcollage-imgcontainer {
@@ -86,7 +96,17 @@ img {
     background-color: rgb(66, 66, 66);
 }
 
-.thesen {}
+.these::first-letter {
+    font-size: 35px;
+}
+
+.these::first-letter {
+    font-size: 35px;
+}
+
+.these {
+    font-size: 25px;
+}
 
 .infos-container {
     width: 85%;

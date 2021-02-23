@@ -63,11 +63,6 @@ body {
     left: 0;
 }
 
-.button a:hover {
-    background-color: blueviolet;
-    color: chartreuse;
-}
-
 .container h1 {
     font-size: 90px;
     font-weight: bolder;

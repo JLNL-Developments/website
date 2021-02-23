@@ -30,6 +30,10 @@ img {
     max-width: 100%;
 }
 
+a {
+    max-width: 100%;
+}
+
 .wrapper {
     display: grid;
     grid-gap: 20px;
@@ -161,6 +165,11 @@ img {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.portfolio a {
+    width: 100%;
+    box-shadow: var(--shadow);
 }
 
 .portfolio img {
