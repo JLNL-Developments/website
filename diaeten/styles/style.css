@@ -4,8 +4,7 @@ body {
 
 .container {
     background-color: rgb(255, 255, 255);
-    padding: 3000px 30%;
-    text-align: left;
+    padding: 3000px  30%;
     font-size: 45px;
     position:relative;
     margin-left: 20%;
@@ -119,24 +118,20 @@ body {
     left:0;
 }
 
-.ü1 {
+.u1 {                   /* u ist für Überschriften auf der Seite index.html */
     top:-50px;
     left:38%;
 }
 
-.ü2 {
-    top:-50px;
-    left:20%
-}
 
-.u1{
+.u2{
     top:120px;
 }
-.u2 {
+.u3 {
     top:420px;
 }
 
-.t1 {
+.t1 {                    /* t ist für Text auf der Seite index.html */
     top:250px;
 }
 
@@ -147,6 +142,19 @@ body {
 .t3 {
     top:630px;
     margin-left:550px;
+}
+
+.ü1 {                  /* ü ist für Überschriften auf der Seite kohlenhydratram.html */
+    top:-50px;
+    left:20%
+}
+
+.ü2{                        
+    top:120px;
+}
+
+.s1{                    /* s ist für Text auf der Seite kohlenhydratram.html */
+    top:250px
 }
 
 .hns {
