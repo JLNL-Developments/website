@@ -4,9 +4,18 @@ body {
     font-family: Roboto;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 img {
     border: 10px solid rgb(0, 99, 99);
     max-width: 500px;
+}
+
+.hide-overflow {
+    overflow: hidden;
 }
 
 .gradient {
@@ -37,7 +46,6 @@ a:hover {
 
 .text-schimmern {
     animation: schimmern 3s infinite linear;
-    width: fit-content;
 }
 
 .startseite {
@@ -66,7 +74,6 @@ a:hover {
 }
 
 .zutaten tr:nth-child(odd) {
-    background-color: rgba(255, 255, 255, 0.);
     text-align: left;
     width: 150px;
 }
