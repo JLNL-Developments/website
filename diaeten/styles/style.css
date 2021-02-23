@@ -1,37 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap%27');
 body {
     text-align: left;
+    font-family: Poppins
 }
 
 .container {
+    text-align: center;
     background-color: rgb(255, 255, 255);
-    padding: 3000px  30%;
-    font-size: 45px;
-    position:relative;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 60px;
-    left:0;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .container p {
+    text-align: justify;
     font-size: 24px;
-    position: absolute;
     left: 0;
     top: 0;
-}
-
-.navbarback {
-    background-color: black;
-    display: inline-block;
-    padding: 30px;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 8;
 }
 
 .navbar {
+    background-color: black;
     justify-content: center;
     display: flex;
     position: fixed;
@@ -47,154 +35,51 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
-    margin-bottom: 20px;
 }
 
 .navbar li {
     float: left;
-    font-size: 30px;
 }
 
 .navbar a {
+    font-size: 30px;
     display: block;
     text-decoration: none;
-    padding: 12px 20px;
+    padding: 12px 18px;
     margin-left: 0;
     color: white;
     font-weight: bold;
     text-align: center;
-    transition: 5s;
+    transition: 2s;
 }
 
 .navbar a:hover {
     background-color: blueviolet;
     color: chartreuse;
-    padding-top:13px;
     transition: 0s;
 }
 
-.button {
-    background-color: black;
-    text-decoration: none;
-    position: fixed;
-    margin-top: 12px;
+.home {
+    position: absolute;
     top: 0;
     left: 0;
-    z-index: 9;
-}
-
-.button a {
-    color: white;
-    padding: 14px 40px;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bold;
-    transition: 5s;
 }
 
 .button a:hover {
     background-color: blueviolet;
     color: chartreuse;
-    transition: 0s;
 }
 
 .container h1 {
     font-size: 100px;
     font-weight: bolder;
-    text-shadow: 1px 1px black;
-    position:absolute;
 }
 
 .container h2 {
     font-size: 60px;
     font-weight: bold;
-    position: absolute;
-    left:0;
 }
 
 .container a {
-    font-size: 24px;
-    position: absolute;
-    left:0;
-}
-
-.container ul {
-    font-size: 24px;
-    position: absolute;
-    left:0;
-}
-.u1 {                   /* u ist für Überschriften auf der Seite index.html */
-    top:-50px;
-    left:38%;
-}
-
-
-.u2{
-    top:120px;
-}
-.u3 {
-    top:420px;
-}
-
-.t1 {                    /* t ist für Text auf der Seite index.html */
-    top:250px;
-}
-
-.t2 {
-    top:550px;
-}
-
-.t3 {
-    top:630px;
-    margin-left:550px;
-}
-
-.ü1 {                  /* ü ist für Überschriften auf der Seite kohlenhydratram.html */
-    top:-50px;
-    left:20%
-}
-
-.ü2{                        
-    top:120px;
-}
-
-.ü3{
-    top:894px;
-}
-
-.ü4 {
-    top:1340px;
-}
-
-.s1{                    /* s ist für Text auf der Seite kohlenhydratram.html */
-    top:250px
-}
-
-.s2{
-    top:1001px;
-    background-color: rgb(240, 240, 240);
-}
-
-.s3 {
-    top:1480px;
-}
-
-.hns {
-    position: absolute;
-    top:620px;
-    left:0;
-    border: 1px solid black;
-    width:512px;
-    height: 261px;
-}
-
-.lce {
-    position: absolute;
-    top:370px;
-    left:0;
-    border: 1px solid black;
-}
-
-strong {
-    font-size: 28px;
+    text-decoration: none;
 }
