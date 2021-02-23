@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap%27');
 body {
     text-align: left;
-    font-family: Poppins
+    font-family: Poppins;
+    background-image: url("../images/markt.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .container {
     text-align: center;
     background-color: rgb(255, 255, 255);
+    padding: 25px;
     margin-left: 250px;
     margin-right: 250px;
 }
@@ -82,8 +87,11 @@ body {
     font-size: 20px;
 }
 
-
 .container p {
     text-align: justify;
     font-size: 20px;
+}
+
+.container img {
+    max-width: 100%;
 }
