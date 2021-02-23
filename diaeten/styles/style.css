@@ -92,16 +92,19 @@ body {
     font-size: 20px;
 }
 
+.container ol {
+    text-align: justify;
+    font-size: 20px;
+}
+
 .container p {
     text-align: justify;
     font-size: 20px;
 }
 
-<<<<<<< Updated upstream
 .container img {
     max-width: 100%;
 }
-=======
 .int {
     background-color: lightgrey;
     font-size: 24px;
@@ -112,4 +115,3 @@ body {
 ul.s {
     list-style-type:square;
 }
->>>>>>> Stashed changes
