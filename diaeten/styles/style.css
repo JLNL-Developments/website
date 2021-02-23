@@ -11,9 +11,14 @@ body {
 .container {
     text-align: center;
     background-color: rgb(255, 255, 255);
+<<<<<<< Updated upstream
     padding: 25px;
     margin-left: 250px;
     margin-right: 250px;
+=======
+    margin-left: 450px;
+    margin-right: 450px;
+>>>>>>> Stashed changes
 }
 
 .navbar {
@@ -78,6 +83,11 @@ body {
     font-weight: bold;
 }
 
+.container h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .container a {
     text-decoration: none;
 }
@@ -92,6 +102,19 @@ body {
     font-size: 20px;
 }
 
+<<<<<<< Updated upstream
 .container img {
     max-width: 100%;
 }
+=======
+.int {
+    background-color: lightgrey;
+    font-size: 24px;
+    max-width: 50px;
+    border:2px solid black;
+}
+
+ul.s {
+    list-style-type:square;
+}
+>>>>>>> Stashed changes
